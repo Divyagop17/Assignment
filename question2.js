@@ -3,7 +3,7 @@ var array1 = [3, 4, 6, 4, 2, 3, 4, 5, 6, 7, 4, 6, 4];
 
 var f = 1;
 var m = 0;
-var item;
+var nm;
 
 for (var i = 0; i < array1.length; i++) {
     
@@ -12,10 +12,10 @@ for (var i = 0; i < array1.length; i++) {
             m++;
         if (f < m) {
             f = m;
-            item = array1[i];
+            nm = array1[i];
         }
     }
     m = 0;
 }
 
-console.log(item + " ( " + f + " times ) ");
+console.log('Most frequent number of an array is ' + nm );
