@@ -26,7 +26,6 @@ else if (n > 1) {
         console.log(n + ' is not a prime number');
 }
 
-else 
-    console.log("The number entered by the user is not a prime number.");
+
 
 
